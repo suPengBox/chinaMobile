@@ -1,0 +1,236 @@
+@charset "UTF-8";
+.marign {
+  width: 6.6rem;
+  margin: 0 auto; }
+
+.margin2 {
+  width: 7.04rem;
+  margin: 0 auto; }
+
+.tittle {
+  display: flex;
+  justify-content: space-between; }
+  .tittle h3 {
+    font: 0.29rem/0.8rem "微软雅黑";
+    display: flex;
+    justify-content: space-between; }
+    .tittle h3 span {
+      display: block;
+      height: 0.45rem;
+      width: 0.12rem;
+      background: #e20177;
+      margin-top: 0.2rem;
+      margin-right: 0.23rem; }
+
+header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #0085cf;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0; }
+  header .header-l {
+    height: 0.33rem;
+    width: 0.42rem;
+    margin: 0.29rem 2.03rem 0 0.24rem;
+    background: url(../img/header-l.png) no-repeat;
+    background-size: 100%; }
+  header .logo {
+    font: 0.36rem/0.9rem "微软雅黑";
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem; }
+    header .logo p {
+      font: 0.3rem/0.9rem "微软雅黑";
+      color: #000;
+      text-align: center;
+      margin-left: 0.35rem; }
+  header .header-r {
+    height: 0.52rem;
+    width: 0.55rem;
+    margin: 0.25rem 0.25rem 0 0;
+    background: url(../img/header-r.png) no-repeat;
+    background-size: 100%; }
+
+section {
+  padding: 0.9rem 0 0.98rem 0; }
+  section .banner {
+    height: 2.98rem;
+    width: 100%; }
+    section .banner img {
+      width: 100%;
+      height: 100%;
+      display: block; }
+  section .cnt1 .cnt1-t {
+    justify-content: center;
+    display: flex;
+    padding: 0.18rem 0; }
+    section .cnt1 .cnt1-t a img {
+      height: 0.65rem;
+      width: 2.08rem;
+      display: block;
+      margin: 0 0.18rem; }
+    section .cnt1 .cnt1-t .te {
+      height: 0.65rem; }
+  section .cnt1 .cnt1-b {
+    justify-content: space-between;
+    display: flex; }
+    section .cnt1 .cnt1-b li {
+      width: 20%;
+      text-align: center; }
+      section .cnt1 .cnt1-b li img {
+        display: block;
+        width: 0.9rem;
+        height: 0.9rem;
+        margin: 0.38rem auto 0; }
+      section .cnt1 .cnt1-b li span {
+        font: 0.26rem/0.48rem "微软雅黑";
+        color: #7b7b7b; }
+  section .split1 {
+    height: 0.23rem;
+    widows: 100%;
+    background: #f5f5f5;
+    border-bottom: 2px solid #d7d7d7;
+    border-top: 2px solid #d7d7d7; }
+  section .hot .tittle1 {
+    display: flex;
+    justify-content: space-between; }
+    section .hot .tittle1 h3 {
+      font: 0.29rem/0.8rem "微软雅黑";
+      display: flex;
+      justify-content: space-between; }
+      section .hot .tittle1 h3 span {
+        display: block;
+        height: 0.45rem;
+        width: 0.12rem;
+        background: #e20177;
+        margin-top: 0.2rem;
+        margin-right: 0.23rem; }
+    section .hot .tittle1 a {
+      font: 0.22rem/0.8rem "微软雅黑";
+      color: #9d9d9d;
+      margin-right: 0.4rem; }
+  section .hot ul {
+    display: flex;
+    justify-content: center; }
+    section .hot ul li {
+      width: 1.74rem;
+      margin: 0 0.04rem; }
+      section .hot ul li a {
+        width: 1.72rem;
+        height: 1.72rem;
+        border: 1px solid #ececec;
+        display: block;
+        text-align: center; }
+        section .hot ul li a img {
+          height: 1rem;
+          width: 0.92rem;
+          display: inline-block; }
+        section .hot ul li a span {
+          font: 0.18rem/0.22rem "微软雅黑";
+          color: #6d6d6d; }
+        section .hot ul li a i {
+          font: 0.28rem "微软雅黑";
+          color: #6d6d6d; }
+      section .hot ul li p {
+        width: 90%;
+        font: 0.25rem/0.38rem "微软雅黑"; }
+        section .hot ul li p u {
+          color: #d30b78; }
+  section .tui ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.45rem 0; }
+    section .tui ul li {
+      width: 50%;
+      border-bottom: 1px solid #cfcfcf;
+      border-right: 1px solid #cfcfcf;
+      box-sizing: border-box;
+      padding: 0.4rem 0.23rem 0.34rem 0.22rem; }
+      section .tui ul li a {
+        display: flex;
+        justify-content: space-between; }
+        section .tui ul li a h3 {
+          font: 0.24rem/0.36rem ""; }
+        section .tui ul li a span {
+          font: 0.18rem/0.26rem "";
+          color: #b1b1b1; }
+        section .tui ul li a img {
+          height: 1.27rem;
+          width: 1.63rem;
+          display: inline-block; }
+      section .tui ul li:nth-child(3) {
+        border-bottom: none; }
+      section .tui ul li:nth-child(4) {
+        border-bottom: none; }
+  section .hert ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.45rem 0; }
+    section .hert ul li {
+      width: 50%;
+      border-bottom: 1px solid #cfcfcf;
+      border-right: 1px solid #cfcfcf;
+      box-sizing: border-box;
+      padding: 0.4rem 0.23rem 0.34rem 0.22rem; }
+      section .hert ul li a {
+        display: flex;
+        justify-content: space-between; }
+        section .hert ul li a h3 {
+          font: 0.24rem/0.36rem ""; }
+        section .hert ul li a span {
+          font: 0.18rem/0.26rem "";
+          color: #b1b1b1; }
+        section .hert ul li a img {
+          height: 1.27rem;
+          width: 1.63rem;
+          display: inline-block; }
+      section .hert ul li:nth-child(3) {
+        border-bottom: none; }
+      section .hert ul li:nth-child(4) {
+        border-bottom: none; }
+
+footer {
+  height: 0.98rem;
+  border-top: 2px solid #eeeeee;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 0.13rem;
+  box-sizing: border-box;
+  background-color: #fff; }
+  footer ul {
+    display: flex;
+    justify-content: space-between; }
+    footer ul li {
+      width: 0.7rem; }
+      footer ul li p {
+        height: 0.5rem;
+        width: 0.52rem;
+        margin: 0 auto; }
+      footer ul li span {
+        font: 0.22rem "微软雅黑";
+        color: #b2b1c2;
+        display: block;
+        text-align: center; }
+      footer ul li:nth-child(1) p {
+        background: url(../img/footer1-1.png) no-repeat;
+        background-size: 100%; }
+      footer ul li:nth-child(2) p {
+        background: url(../img/footer2.png) no-repeat;
+        background-size: 100%; }
+      footer ul li:nth-child(3) p {
+        background: url(../img/footer3.png) no-repeat;
+        background-size: 100%; }
+      footer ul li:nth-child(4) p {
+        background: url(../img/footer4.png) no-repeat;
+        background-size: 100%; }
+      footer ul li:nth-child(5) p {
+        background: url(../img/footer5-1.png) no-repeat;
+        background-size: 100%; }
+      footer ul li.active span {
+        color: #0085d0; }

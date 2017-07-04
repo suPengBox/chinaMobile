@@ -1,0 +1,610 @@
+@charset "UTF-8";
+.marign {
+  width: 6.7rem;
+  margin: 0 auto; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+  html aside, body aside {
+    padding-left: 0.43rem;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(top, #235594, #2d94b4 50%, #55c6c9 75%, #cc8abc);
+    box-sizing: border-box; }
+    html aside .user, body aside .user {
+      height: 0.86rem;
+      justify-content: flex-start;
+      display: flex;
+      padding: 0.72rem 0 0.12rem 0; }
+      html aside .user img, body aside .user img {
+        height: 0.86rem;
+        width: 0.86rem;
+        display: block;
+        border-radius: 50%;
+        margin-right: 0.12rem; }
+      html aside .user span, body aside .user span {
+        font: 0.29rem/0.86rem "微软雅黑";
+        color: #FFFFFF; }
+    html aside .location, body aside .location {
+      height: 0.84rem;
+      width: 3.36rem;
+      border-bottom: 2px solid #FFFFFF;
+      justify-content: space-between;
+      display: flex;
+      margin-bottom: 2.19rem; }
+      html aside .location .location-l, body aside .location .location-l {
+        justify-content: flex-start;
+        display: flex; }
+        html aside .location .location-l i, body aside .location .location-l i {
+          display: block;
+          width: 0.3rem;
+          height: 0.34rem;
+          background: url(../img/side2.png) no-repeat;
+          background-size: contain;
+          margin: auto;
+          margin-right: 0.4rem; }
+        html aside .location .location-l span, body aside .location .location-l span {
+          font: 0.28rem/0.84rem "微软雅黑";
+          color: #FFFFFF; }
+      html aside .location b, body aside .location b {
+        display: block;
+        width: 0.16rem;
+        height: 0.24rem;
+        background: url(../img/slid-r.png) no-repeat;
+        background-size: contain;
+        margin: auto 0; }
+    html aside .func li, body aside .func li {
+      height: 0.42rem;
+      width: 2rem;
+      margin-bottom: 0.64rem; }
+      html aside .func li a, body aside .func li a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        font: 0.3rem/0.42rem "微软雅黑";
+        color: #FFFFFF;
+        padding-left: 0.66rem;
+        box-sizing: border-box; }
+      html aside .func li:nth-child(1) a, body aside .func li:nth-child(1) a {
+        background: url(../img/side3.png) no-repeat left center;
+        background-size: 0.33rem 0.33rem; }
+      html aside .func li:nth-child(2) a, body aside .func li:nth-child(2) a {
+        background: url(../img/side4.png) no-repeat left center;
+        background-size: 0.33rem 0.33rem; }
+      html aside .func li:nth-child(3) a, body aside .func li:nth-child(3) a {
+        background: url(../img/side5.png) no-repeat left center;
+        background-size: 0.33rem 0.33rem; }
+      html aside .func li:nth-child(4) a, body aside .func li:nth-child(4) a {
+        background: url(../img/side6.png) no-repeat left center;
+        background-size: 0.33rem 0.33rem; }
+    html aside .set1, body aside .set1 {
+      margin-top: 2rem; }
+      html aside .set1 a, body aside .set1 a {
+        display: block;
+        height: 0.42rem;
+        width: 2rem;
+        font: 0.3rem/0.42rem "微软雅黑";
+        color: #FFFFFF;
+        background: url(../img/side7.png) no-repeat left center;
+        background-size: 0.33rem 0.33rem;
+        padding-left: 0.66rem;
+        box-sizing: border-box; }
+  html #login, body #login {
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(top, #235594, #2d94b4 50%, #55c6c9 75%, #cc8abc);
+    position: fixed;
+    z-index: 555;
+    top: 0; }
+    html #login .top, body #login .top {
+      height: 1.06rem;
+      justify-content: flex-start; }
+      html #login .top img, body #login .top img {
+        height: 0.26rem;
+        width: 0.26rem;
+        display: inline-block;
+        margin: -0.08rem 2.48rem 0 0; }
+      html #login .top span, body #login .top span {
+        font: 0.32rem/1.06rem "";
+        color: #FFFFFF; }
+    html #login [type="tel"], body #login [type="tel"] {
+      height: 0.6rem;
+      background: none;
+      outline: none;
+      border: none;
+      border-bottom: 0.2px solid #d4e1ec;
+      width: 100%;
+      background: url(../img/log2.png) no-repeat left 0.15rem;
+      background-size: 0.26rem 0.26rem;
+      padding-left: 0.6rem;
+      box-sizing: border-box;
+      font: 0.24rem/0.46rem "微软雅黑";
+      color: #FFFFFF;
+      margin-top: 0.34rem; }
+    html #login .psw, body #login .psw {
+      justify-content: space-between;
+      display: flex;
+      height: 0.6rem;
+      margin-top: 0.46rem; }
+      html #login .psw [type="text"], body #login .psw [type="text"] {
+        width: 4.3rem;
+        background: none;
+        outline: none;
+        border: none;
+        border-bottom: 0.2px solid #d4e1ec;
+        background: url(../img/log3.png) no-repeat left 0.15rem;
+        background-size: 0.26rem 0.26rem;
+        padding-left: 0.6rem;
+        box-sizing: border-box;
+        font: 0.24rem/0.46rem "微软雅黑";
+        color: #FFFFFF; }
+      html #login .psw a, body #login .psw a {
+        display: block;
+        height: 100%;
+        width: 1.82rem;
+        background: #6971a4;
+        border-radius: 0.07rem;
+        font: 0.26rem/0.6rem "微软雅黑";
+        color: #FFFFFF;
+        text-align: center;
+        cursor: pointer; }
+    html #login .remb, body #login .remb {
+      justify-content: flex-start;
+      display: flex;
+      height: 0.34rem;
+      margin: 0.4rem 0 0.3rem 0; }
+      html #login .remb p, body #login .remb p {
+        height: 0.34rem;
+        width: 0.34rem;
+        background: url(../img/log4.png) no-repeat;
+        background-size: 0.34rem 0.34rem;
+        margin-right: 0.25rem; }
+      html #login .remb span, body #login .remb span {
+        font: 0.26rem/0.34rem "微软雅黑";
+        color: #FFFFFF;
+        cursor: pointer; }
+    html #login [type="button"], body #login [type="button"] {
+      height: 0.8rem;
+      width: 100%;
+      font: 0.3rem/0.8rem "微软雅黑";
+      color: #3184c1;
+      border: none;
+      background: #95c1d5;
+      border-radius: 0.07rem;
+      cursor: pointer;
+      -webkit-appearance: none; }
+  html #set, body #set {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    z-index: 222;
+    background: #f6f6f6; }
+    html #set .setHeader, body #set .setHeader {
+      width: 100%;
+      height: 0.9rem;
+      background-color: #0085cf;
+      display: flex;
+      justify-content: flex-start;
+      position: fixed;
+      top: 0; }
+      html #set .setHeader .header-l, body #set .setHeader .header-l {
+        height: 0.51rem;
+        width: 0.51rem;
+        margin: 0.22rem 0 0 0.24rem;
+        background: url(../img/set1.png) no-repeat;
+        background-size: 100%; }
+      html #set .setHeader .logo, body #set .setHeader .logo {
+        font: 0.36rem/0.9rem "微软雅黑";
+        color: #FFFFFF;
+        margin-left: 2.68rem; }
+    html #set .setSection, body #set .setSection {
+      padding-top: 0.9rem;
+      background: #f6f6f6; }
+      html #set .setSection ul, body #set .setSection ul {
+        padding-top: 0.2rem; }
+        html #set .setSection ul li, body #set .setSection ul li {
+          height: 0.86rem;
+          width: 100%;
+          border-top: 1px solid #ebebeb;
+          border-bottom: 1px solid #ebebeb;
+          font: 0.27rem/0.86rem "微软雅黑";
+          color: #000000;
+          background: white url(../img/toR.png) no-repeat 7rem center;
+          background-size: 0.17rem 0.3rem;
+          padding-left: 0.3rem;
+          justify-content: space-between;
+          display: flex;
+          box-sizing: border-box;
+          padding-right: 0.62rem; }
+          html #set .setSection ul li span, body #set .setSection ul li span {
+            font: 0.22rem/0.86rem "微软雅黑";
+            color: #bcbcbc; }
+          html #set .setSection ul li:nth-child(1), body #set .setSection ul li:nth-child(1) {
+            margin-bottom: 0.2rem; }
+          html #set .setSection ul li:nth-child(2), body #set .setSection ul li:nth-child(2) {
+            border-bottom: none; }
+          html #set .setSection ul li:nth-child(3), body #set .setSection ul li:nth-child(3) {
+            border-bottom: none; }
+          html #set .setSection ul li:nth-child(5), body #set .setSection ul li:nth-child(5) {
+            border-bottom: none;
+            margin-top: 0.2rem; }
+          html #set .setSection ul li:nth-child(6) span, body #set .setSection ul li:nth-child(6) span {
+            color: #2f9cd8; }
+      html #set .setSection input, body #set .setSection input {
+        height: 0.8rem;
+        width: 100%;
+        border: none;
+        outline: none;
+        background: #0085cf;
+        font: 0.28rem/0.8rem "微软雅黑";
+        color: #FFFFFF;
+        border-radius: 0.07rem;
+        margin-top: 0.25rem;
+        -webkit-appearance: none; }
+  html #login-set, body #login-set {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    z-index: 222;
+    background: #f6f6f6; }
+    html #login-set .login-setHeader, body #login-set .login-setHeader {
+      width: 100%;
+      height: 0.9rem;
+      background-color: #0085cf;
+      display: flex;
+      justify-content: flex-start;
+      position: fixed;
+      top: 0; }
+      html #login-set .login-setHeader .header-l, body #login-set .login-setHeader .header-l {
+        height: 0.51rem;
+        width: 0.51rem;
+        margin: 0.22rem 0 0 0.24rem;
+        background: url(../img/set1.png) no-repeat;
+        background-size: 100%; }
+      html #login-set .login-setHeader .logo, body #login-set .login-setHeader .logo {
+        font: 0.36rem/0.9rem "微软雅黑";
+        color: #FFFFFF;
+        margin-left: 2.28rem; }
+    html #login-set .login-setSection, body #login-set .login-setSection {
+      padding-top: 0.9rem;
+      background: #f6f6f6; }
+      html #login-set .login-setSection ul, body #login-set .login-setSection ul {
+        padding-top: 0.2rem; }
+        html #login-set .login-setSection ul li, body #login-set .login-setSection ul li {
+          height: 1.08rem;
+          width: 100%;
+          justify-content: space-between;
+          display: flex;
+          border-top: 1px solid #ebebeb;
+          border-bottom: 1px solid #ebebeb;
+          background: #FFFFFF;
+          padding: 0.23rem 0.2rem 0.2rem 0.3rem;
+          box-sizing: border-box; }
+          html #login-set .login-setSection ul li .right, body #login-set .login-setSection ul li .right {
+            height: 0.56rem;
+            width: 1.15rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 0.32rem; }
+            html #login-set .login-setSection ul li .right i, body #login-set .login-setSection ul li .right i {
+              display: block;
+              height: 0.54rem;
+              width: 0.54rem;
+              border-radius: 50%;
+              border: 1px solid #e0e0e0; }
+          html #login-set .login-setSection ul li:nth-child(1), body #login-set .login-setSection ul li:nth-child(1) {
+            border-bottom: none; }
+            html #login-set .login-setSection ul li:nth-child(1) p, body #login-set .login-setSection ul li:nth-child(1) p {
+              font: 0.28rem "微软雅黑";
+              color: #000000; }
+              html #login-set .login-setSection ul li:nth-child(1) p span, body #login-set .login-setSection ul li:nth-child(1) p span {
+                font: 0.24rem/0.3rem "微软雅黑";
+                color: #999999; }
+          html #login-set .login-setSection ul li:nth-child(2), body #login-set .login-setSection ul li:nth-child(2) {
+            border-bottom: none;
+            font: 0.28rem/0.56rem "微软雅黑";
+            color: #000000; }
+          html #login-set .login-setSection ul li:nth-child(3), body #login-set .login-setSection ul li:nth-child(3) {
+            font: 0.28rem/0.56rem "微软雅黑";
+            color: #000000; }
+
+#top {
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; }
+  #top header {
+    width: 100%;
+    height: 0.9rem;
+    background-color: #0085cf;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0; }
+    #top header .header-l {
+      height: 0.33rem;
+      width: 0.42rem;
+      margin: 0.29rem 2.03rem 0 0.24rem;
+      background: url(../img/header-l.png) no-repeat;
+      background-size: 100%; }
+    #top header .logo {
+      height: 0.65rem;
+      width: 2.09rem;
+      margin: 0.13rem 0 0 0;
+      background: url(../img/header-logo.png) no-repeat;
+      background-size: 100%; }
+    #top header p {
+      font: 0.3rem/0.9rem "微软雅黑";
+      color: #000;
+      width: 1.8rem;
+      text-align: center; }
+    #top header .header-r {
+      height: 0.52rem;
+      width: 0.55rem;
+      margin: 0.13rem 0 0 0.2rem;
+      background: url(../img/header-r.png) no-repeat;
+      background-size: 100%; }
+  #top section {
+    padding: 0.9rem 0 0.98rem 0; }
+    #top section .banner {
+      height: 2.6rem;
+      width: 100%;
+      background: url(../img/banner.png) no-repeat;
+      background-size: 100%; }
+    #top section .nav {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0.27rem 0.45rem 0 0.45rem; }
+      #top section .nav li {
+        width: 1.65rem;
+        text-align: center;
+        margin-bottom: 0.4rem; }
+        #top section .nav li img {
+          display: block;
+          height: 0.89rem;
+          width: 0.89rem;
+          border-radius: 50%;
+          margin: 0 auto; }
+        #top section .nav li span {
+          font: 0.23rem/0.5rem "微软雅黑";
+          color: #666666; }
+    #top section .banner2 {
+      height: 3.52rem;
+      width: 100%;
+      background: url(../img/banner2.png) no-repeat;
+      background-size: 100%;
+      border-bottom: 0.23rem solid #f6f6f6;
+      border-top: 0.23rem solid #f6f6f6; }
+    #top section .play4g h3 {
+      font: 0.34rem/0.8rem "微软雅黑";
+      padding-left: 0.23rem; }
+    #top section .play4g .play4g-t {
+      border-bottom: 1px solid #e9e9e9;
+      border-top: 1px solid #e9e9e9;
+      height: 4.1rem; }
+      #top section .play4g .play4g-t .play4g-t-l {
+        width: 3.0rem;
+        height: 100%;
+        border-right: 1px solid #e9e9e9;
+        float: left; }
+        #top section .play4g .play4g-t .play4g-t-l a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 0.5rem 0 0 0.17rem;
+          box-sizing: border-box; }
+          #top section .play4g .play4g-t .play4g-t-l a h4 {
+            font: 0.3rem/0.46rem "";
+            color: #000000; }
+          #top section .play4g .play4g-t .play4g-t-l a span {
+            font: 0.25rem/0.4rem "微软雅黑"; }
+          #top section .play4g .play4g-t .play4g-t-l a img {
+            display: inline-block;
+            height: 1.8rem;
+            width: 2rem;
+            margin: 0.5rem 0 0 0.5rem; }
+      #top section .play4g .play4g-t .play4g-t-r {
+        float: left;
+        width: 4.46rem;
+        height: 100%; }
+        #top section .play4g .play4g-t .play4g-t-r .play-t {
+          height: 1.86rem;
+          border-bottom: 1px solid #e9e9e9;
+          padding: 0.5rem 0 0 0.17rem;
+          box-sizing: border-box; }
+          #top section .play4g .play4g-t .play4g-t-r .play-t a {
+            display: block;
+            height: 100%;
+            width: 100%; }
+            #top section .play4g .play4g-t .play4g-t-r .play-t a h4 {
+              font: 0.3rem/0.46rem "";
+              color: #000000;
+              float: left; }
+              #top section .play4g .play4g-t .play4g-t-r .play-t a h4 span {
+                font: 0.25rem/0.4rem "微软雅黑";
+                color: #adadad; }
+            #top section .play4g .play4g-t .play4g-t-r .play-t a img {
+              display: inline-block;
+              height: 1.36rem;
+              width: 1.51rem;
+              float: right;
+              margin: -0.25rem 0.25rem 0 0; }
+        #top section .play4g .play4g-t .play4g-t-r .play-b {
+          height: 2.22rem;
+          width: 100%; }
+          #top section .play4g .play4g-t .play4g-t-r .play-b ul {
+            display: flex;
+            justify-content: space-between;
+            height: 100%; }
+            #top section .play4g .play4g-t .play4g-t-r .play-b ul li {
+              height: 100%; }
+              #top section .play4g .play4g-t .play4g-t-r .play-b ul li a {
+                padding: 0.17rem 0 0 0.1rem;
+                box-sizing: border-box; }
+                #top section .play4g .play4g-t .play4g-t-r .play-b ul li a h4 {
+                  font: 0.26rem/0.33rem "";
+                  color: #000000; }
+                #top section .play4g .play4g-t .play4g-t-r .play-b ul li a span {
+                  font: 0.25rem/0.4rem "微软雅黑"; }
+                #top section .play4g .play4g-t .play4g-t-r .play-b ul li a img {
+                  display: inline-block;
+                  height: 1rem;
+                  width: 1.1rem;
+                  margin: 0.25rem 0 0 0.64rem; }
+              #top section .play4g .play4g-t .play4g-t-r .play-b ul li:nth-child(1) a {
+                display: block;
+                width: 2.22rem;
+                height: 100%;
+                border-right: 1px solid #e9e9e9; }
+              #top section .play4g .play4g-t .play4g-t-r .play-b ul li:nth-child(2) a {
+                width: 2.22rem;
+                display: block;
+                height: 100%; }
+    #top section .play4g .play4g-c {
+      width: 100%;
+      height: 2.63rem;
+      border-bottom: 1px solid #B2B1C2;
+      display: flex;
+      justify-content: space-between; }
+      #top section .play4g .play4g-c li {
+        width: 1.85rem;
+        border-right: 1px solid #e9e9e9; }
+        #top section .play4g .play4g-c li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          padding: 0.32rem 0 0 0.15rem;
+          box-sizing: border-box; }
+          #top section .play4g .play4g-c li a h4 {
+            font: 0.26rem/0.37rem "";
+            color: #000000; }
+          #top section .play4g .play4g-c li a span {
+            font: 0.24rem/0.32rem "微软雅黑"; }
+          #top section .play4g .play4g-c li a img {
+            display: inline-block;
+            height: 1.07rem;
+            width: 1.22rem;
+            margin: 0.25rem 0 0 0.25rem; }
+    #top section .play4g .play4g-b {
+      background: url(../img/play9.png) no-repeat;
+      background-size: 100%;
+      height: 1.77rem;
+      width: 100%;
+      border-bottom: 0.23rem solid #f6f6f6; }
+    #top section .market {
+      border-bottom: 0.23rem solid #f6f6f6; }
+      #top section .market h3 {
+        font: 0.34rem/0.8rem "微软雅黑";
+        padding-left: 0.23rem; }
+      #top section .market ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap; }
+        #top section .market ul li a {
+          display: block;
+          width: 1.85rem;
+          border-right: 1px solid #e9e9e9;
+          border-top: 1px solid #e9e9e9;
+          text-align: center;
+          padding: 0.26rem 0 0.46rem 0; }
+          #top section .market ul li a h4 {
+            font: 0.26rem/0.37rem "";
+            color: #000000; }
+          #top section .market ul li a span {
+            font: 0.24rem/0.32rem "微软雅黑";
+            color: #929292; }
+          #top section .market ul li a img {
+            display: inline-block;
+            height: 1.07rem;
+            width: 1.22rem;
+            margin: 0.33rem auto 0; }
+    #top section .seal {
+      border-bottom: 0.24rem solid #f6f6f6; }
+      #top section .seal .banner3 {
+        background: url(../img/seal1.png) no-repeat;
+        background-size: 100%;
+        height: 1.76rem;
+        width: 100%; }
+      #top section .seal ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap; }
+        #top section .seal ul li a {
+          display: block;
+          height: 1.63rem;
+          width: 3.72rem;
+          border-top: 1px solid #e9e9e9;
+          border-right: 1px solid #E9E9E9;
+          padding: 0.36rem 0 0 0.17rem;
+          box-sizing: border-box; }
+          #top section .seal ul li a h4 {
+            float: left;
+            font: 0.3rem/0.45rem "微软雅黑"; }
+            #top section .seal ul li a h4 span {
+              font: 0.26rem/0.32rem "微软雅黑";
+              color: #b9b9b9; }
+          #top section .seal ul li a img {
+            float: right;
+            display: inline-block;
+            width: 1rem;
+            height: 0.94rem;
+            margin-right: 0.32rem; }
+        #top section .seal ul li:nth-child(1) h4 {
+          color: #bca675; }
+        #top section .seal ul li:nth-child(2) h4 {
+          color: #b1196e; }
+        #top section .seal ul li:nth-child(3) h4 {
+          color: #41a88b; }
+        #top section .seal ul li:nth-child(4) h4 {
+          color: #41a88b; }
+    #top section .banner4 {
+      height: 1.74rem;
+      background: url(../img/banner4.png) no-repeat;
+      background-size: 100%; }
+  #top footer {
+    height: 0.98rem;
+    border-top: 2px solid #eeeeee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 0.13rem;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #top footer ul {
+      display: flex;
+      justify-content: space-between; }
+      #top footer ul li {
+        width: 0.7rem; }
+        #top footer ul li p {
+          height: 0.5rem;
+          width: 0.52rem;
+          margin: 0 auto; }
+        #top footer ul li span {
+          font: 0.22rem "微软雅黑";
+          color: #b2b1c2;
+          display: block;
+          text-align: center; }
+        #top footer ul li:nth-child(1) p {
+          background: url(../img/footer1.png) no-repeat;
+          background-size: 100%; }
+        #top footer ul li:nth-child(2) p {
+          background: url(../img/footer2.png) no-repeat;
+          background-size: 100%; }
+        #top footer ul li:nth-child(3) p {
+          background: url(../img/footer3.png) no-repeat;
+          background-size: 100%; }
+        #top footer ul li:nth-child(4) p {
+          background: url(../img/footer4.png) no-repeat;
+          background-size: 100%; }
+        #top footer ul li:nth-child(5) p {
+          background: url(../img/footer5.png) no-repeat;
+          background-size: 100%; }
+        #top footer ul li.active span {
+          color: #0085d0; }

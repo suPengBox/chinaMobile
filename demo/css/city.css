@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.margin {
+  width: 7.16rem;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #0085cf;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0; }
+  header .header-l {
+    height: 0.51rem;
+    width: 0.51rem;
+    margin: 0.22rem 0 0 0.24rem;
+    background: url(../img/set1.png) no-repeat;
+    background-size: 100%; }
+  header .logo {
+    font: 0.36rem/0.9rem "微软雅黑";
+    color: #FFFFFF;
+    margin-left: 2.28rem; }
+
+section {
+  padding-top: 0.9rem;
+  font: 0.25rem/0.92rem "微软雅黑"; }
+  section .top {
+    background: #f6f6f6; }
+    section .top input {
+      height: 0.55rem;
+      width: 7.16rem;
+      background: #e1e2e4;
+      border-radius: 0.1rem;
+      border: none;
+      outline: none;
+      margin: 0.16rem 0; }
+    section .top .local {
+      height: 0.92rem;
+      background: #FFFFFF;
+      padding-left: 0.32rem;
+      color: #6f7179; }
+      section .top .local span {
+        color: #0085CF;
+        margin-left: 0.6rem; }
+    section .top .select {
+      height: 0.92rem;
+      color: #0085CF;
+      padding-left: 0.32rem; }
+  section .bottom {
+    position: relative; }
+    section .bottom ul {
+      padding-left: 0.32rem; }
+      section .bottom ul li {
+        height: 0.92rem;
+        color: #000000;
+        border-bottom: 1px solid #e6e6e6;
+        background: #FFFFFF; }
+    section .bottom dl {
+      padding-left: 0.32rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none; }
+      section .bottom dl dd {
+        height: 0.92rem;
+        color: #000000;
+        border-bottom: 1px solid #e6e6e6;
+        background: #FFFFFF; }
